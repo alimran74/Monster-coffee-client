@@ -51,7 +51,7 @@ const CoffeeCard = ({ coffee, coffees, setCoffees }) => {
         <div>
           <h2>Name: {name}</h2>
           <p>Quantity: {quantity}</p>
-          <p>Category {category}</p>
+          <p>Category : {category}</p>
         </div>
         <div className="card-actions justify-end">
           <div className="join join-vertical space-y-2">
